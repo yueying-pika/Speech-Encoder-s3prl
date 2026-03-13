@@ -23,8 +23,8 @@ pip install s3prl
 
 # 3. 其他依赖
 # 请确保环境中已安装运行 Qwen-Omni 架构所需的依赖库（如 transformers 等）
+```
 
-```bash
 ---
 
 ## 📂 项目结构说明 (Project Structure)
