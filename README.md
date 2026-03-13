@@ -43,10 +43,11 @@ Speech-Encoder-s3prl/
 │       │   └── config_qwen_omni_960h_online.yaml
 │       ├── asr_aishell_1/          # 中文 AISHELL-1 任务支持
 │       └── asr_seame/              # 中英混读 SEAME 任务支持
-
+```
 ---
 
 ## 🚀 快速开始
+```bash
 1. 训练脚本 (Training)
 使用 SLURM 系统提交训练作业，或参考脚本内的指令进行本地运行：
 # 提交 ASR 训练任务（默认使用 S3PRL runner）
@@ -56,9 +57,11 @@ sbatch s3prl/upstream/qwen_omni/run_qwen_online.sbatch
 对训练好的 Checkpoint 进行性能评估（如计算 WER 等指标）：
 # 提交评估任务
 sbatch s3prl/upstream/qwen_omni/evaluate.sbatch
-
+```
 ---
 
 ## 🔗 参考资料
+```bash
 s3prl 官方仓库
 Qwen 系列模型说明
+```
