@@ -5,7 +5,7 @@
 ## Quick Start
 
 ### 1) 环境安装
-
+```bash
 conda create -n speech_encoder python=3.10
 conda activate speech_encoder
 pip install s3prl
@@ -35,4 +35,5 @@ Downstream (asr_seame)
 Speech-Encoder-s3prl/s3prl/s3prl/upstream/asr_seame
 
 ### 3) 评估脚本
+```bash
 sbatch Speech-Encoder-s3prl/s3prl/upstream/qwen_omni/evaluate.sbatch
