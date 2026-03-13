@@ -22,7 +22,7 @@ pip install s3prl
 
 ---
 
-## 📂 项目结构说明 (Project Structure)
+## 📂 项目结构说明
 
 ```text
 Speech-Encoder-s3prl/
