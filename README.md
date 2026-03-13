@@ -1,4 +1,4 @@
-# Speech-Encoder-s3prl (Qwen-Omni Upstream)
+# Speech-Encoder-s3prl
 
 本项目基于 [s3prl](https://github.com/s3prl/s3prl) 框架，实现了语音编码器（Speech Encoder）集成。通过该项目，可以方便地提取 Qwen-Omni 的上游特征，并将其应用于语音识别（ASR）等下游任务。
 
