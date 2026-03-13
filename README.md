@@ -48,12 +48,12 @@ Speech-Encoder-s3prl/
 
 ## 🚀 快速开始
 ```bash
-1. 训练脚本 (Training)
+# 1. 训练脚本 (Training)
 使用 SLURM 系统提交训练作业，或参考脚本内的指令进行本地运行：
 # 提交 ASR 训练任务（默认使用 S3PRL runner）
 sbatch s3prl/upstream/qwen_omni/run_qwen_online.sbatch
 
-2. 评估脚本 (Evaluation)
+# 2. 评估脚本 (Evaluation)
 对训练好的 Checkpoint 进行性能评估（如计算 WER 等指标）：
 # 提交评估任务
 sbatch s3prl/upstream/qwen_omni/evaluate.sbatch
