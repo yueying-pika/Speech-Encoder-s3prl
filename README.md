@@ -26,16 +26,18 @@ pip install s3prl
 
 ---
 
-## 🛠 项目结构说明
+## 📂 项目结构说明 (Project Structure)
+
+```text
 Speech-Encoder-s3prl/
 ├── s3prl/
 │   ├── upstream/
 │   │   └── qwen_omni/              # Upstream 核心实现目录
-│   │       ├── expert_online.py    # Qwen-Omni 专家类 (Online/Stream 支持)
-│   │       ├── run_qwen_online.sbatch   # 训练启动脚本
-│   │       └── evaluate.sbatch          # 评估启动脚本
+│   │       ├── expert_online.py    # Qwen-Omni 专家类实现 (支持 Online/Stream)
+│   │       ├── run_qwen_online.sbatch   # 训练启动脚本 (SLURM)
+│   │       └── evaluate.sbatch          # 评估启动脚本 (SLURM)
 │   └── downstream/
-│       ├── asr/                    # LibriSpeech ASR 任务配置
+│       ├── asr/                    # LibriSpeech ASR 任务配置文件
 │       │   ├── config_qwen_omni_100h_online.yaml
 │       │   └── config_qwen_omni_960h_online.yaml
 │       ├── asr_aishell_1/          # 中文 AISHELL-1 任务支持
